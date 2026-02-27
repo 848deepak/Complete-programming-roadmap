@@ -1,0 +1,18 @@
+# Java compiled files
+*.class
+
+# C++ build artifacts
+*.o
+*.out
+a.out
+
+# macOS
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
