@@ -1,7 +1,7 @@
 # C++ Data Structures & Algorithms: Linked List
 
 > **Folder:** `cpp/dsa/01-basic-to-intermediate/linked-list/` | **Level:** Basic to Intermediate  
-> **Files:** `01` through `12` cover creation, insertion, deletion, searching, reversing, doubly/circular variants, cycle detection, and merging.
+> **Files:** `01` through `14` cover creation, insertion/deletion (start, end, and position), searching, reversing, doubly/circular variants, cycle detection, and merging.
 
 ---
 
@@ -17,6 +17,26 @@ A Linked List is a linear data structure where elements (nodes) are not stored i
 ---
 
 ## 2. Core Concepts
+
+### File Index (`01` to `14`)
+
+| File | Focus |
+|------|-------|
+| `01_create_print_linkedlist.cpp` | Create and print singly linked list |
+| `01_linked_list.cpp` | Combined basics: insert/delete (start, end, position), search, reverse |
+| `02_insert_at_start.cpp` | Insert node at beginning |
+| `03_insert_at_end.cpp` | Insert node at end |
+| `04_delete_from_start.cpp` | Delete node from beginning |
+| `05_delete_from_end.cpp` | Delete node from end |
+| `06_search_element.cpp` | Search element in list |
+| `07_find_middle.cpp` | Find middle element (slow/fast pointers) |
+| `08_reverse_linkedlist.cpp` | Reverse singly linked list |
+| `09_doubly_linked_list.cpp` | Doubly linked list operations |
+| `10_circular_linked_list.cpp` | Circular linked list operations |
+| `11_detect_cycle.cpp` | Detect/find/remove cycle |
+| `12_merge_two_lists.cpp` | Merge two/K sorted lists, merge sort |
+| `13_insert_at_position.cpp` | Insert at any valid position |
+| `14_delete_from_position.cpp` | Delete from any valid position |
 
 ### 2.1 The Node Structure
 In C++, a node is typically defined using a `struct` or `class`:
@@ -49,6 +69,10 @@ The `next` pointer of the last node points back to the `head` node, forming a ci
 ### 2.5 Advanced Patterns (`11` and `12`)
 - **Cycle Detection (Floyd's Tortoise and Hare):** Uses two pointers, a `slow` pointer (moves 1 step) and a `fast` pointer (moves 2 steps). If there is a cycle, they are guaranteed to meet. (O(n) time, O(1) space).
 - **Merge Two Sorted Lists:** A recursive or iterative approach to combine two pre-sorted linked lists into a single sorted list by constantly comparing the heads of the two lists.
+
+### 2.6 Position-Based Operations (`13` and `14`)
+- **Insert at Position (`13_insert_at_position.cpp`):** Insert a new node at a given 0-based index by traversing to the previous node and reconnecting links safely.
+- **Delete from Position (`14_delete_from_position.cpp`):** Remove the node at a given 0-based index with proper handling for head deletion and out-of-range positions.
 
 ---
 

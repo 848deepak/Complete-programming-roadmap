@@ -50,11 +50,13 @@ dsa/
 
 | File | Topics Covered |
 |------|----------------|
-| `01_linked_list.cpp` | Singly LL: insert, delete, reverse, search |
+| `01_linked_list.cpp` | Singly LL: insert/delete (start, end, position), reverse, search |
 | `09_doubly_linked_list.cpp` | DLL: O(1) delete by pointer, backward traversal |
 | `10_circular_linked_list.cpp` | CLL: tail pointer, Josephus problem |
 | `11_detect_cycle.cpp` | Floyd's Cycle Detection, find start, remove cycle |
 | `12_merge_two_lists.cpp` | Merge two sorted lists, merge K lists, merge sort |
+| `13_insert_at_position.cpp` | Insert at any valid index in singly linked list |
+| `14_delete_from_position.cpp` | Delete from any valid index in singly linked list |
 
 ### Singly vs Doubly vs Circular
 
